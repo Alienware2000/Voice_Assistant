@@ -117,7 +117,7 @@ def respond(voice_data):
         exit()
 
     if 'your name' in voice_data:
-        speak("Hi, My name is Edith")
+        speak("Hi, My name is Alexa")
     elif voice_data == 'search':
         search()
     elif voice_data == 'find location':
@@ -137,7 +137,7 @@ def respond(voice_data):
             speak("Sorry I didn't quite get that")
 
 
-speak("Hi, my name is Edith. How can I help you?")
+speak("Hi, my name is Alexa. How can I help you?")
 
 # To keep running the Voice assistant till exit is said by the user
 while True:
